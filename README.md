@@ -74,26 +74,9 @@ chatgpt "Generate unit tests for this function"
 - ✅ Both work together seamlessly
 - ✅ Best of both worlds: GUI + CLI
 
-### 💻 Developer Workflows
+### 💻 Full Terminal Experience
 
-```bash
-# Edit files
-vim README.md
-nano config.txt
-
-# Run code
-python3 script.py
-node app.js
-
-# Project management
-npm test
-make build
-docker-compose up
-
-# Search notes
-grep -r "TODO" .
-fd "*.md" | xargs wc -l
-```
+Run any command just like in a native terminal - vim, python, npm, docker, and more. All tools work seamlessly.
 
 ## 📦 Installation
 

@@ -74,26 +74,9 @@ chatgpt "为这个函数生成单元测试"
 - ✅ 两者无缝配合
 - ✅ 兼得图形界面和命令行的优势
 
-### 💻 开发者工作流
+### 💻 完整的终端体验
 
-```bash
-# 编辑文件
-vim README.md
-nano config.txt
-
-# 运行代码
-python3 script.py
-node app.js
-
-# 项目管理
-npm test
-make build
-docker-compose up
-
-# 搜索笔记
-grep -r "TODO" .
-fd "*.md" | xargs wc -l
-```
+像原生终端一样运行任何命令 - vim、python、npm、docker 等。所有工具都能无缝工作。
 
 ## 📦 安装教程
 
