@@ -1,0 +1,10 @@
+{
+  "id": "claudeterm",
+  "name": "ClaudeTerm",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Full-featured terminal for Obsidian - perfect for running Claude Code, vim, git, and more",
+  "author": "ClaudeTerm",
+  "authorUrl": "https://github.com/chicogong",
+  "isDesktopOnly": true
+}
