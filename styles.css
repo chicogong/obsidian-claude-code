@@ -1,0 +1,247 @@
+/* XTerm Base Styles */
+.xterm {
+  cursor: text;
+  position: relative;
+  user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+
+.xterm.focus,
+.xterm:focus {
+  outline: none;
+}
+
+.xterm .xterm-helpers {
+  position: absolute;
+  top: 0;
+  z-index: 5;
+}
+
+.xterm .xterm-helper-textarea {
+  position: absolute;
+  opacity: 0;
+  left: -9999em;
+  top: 0;
+  width: 0;
+  height: 0;
+  z-index: -5;
+  white-space: nowrap;
+  overflow: hidden;
+  resize: none;
+}
+
+.xterm .xterm-viewport {
+  background-color: #000;
+  overflow-y: scroll;
+  cursor: default;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.xterm .xterm-screen {
+  position: relative;
+}
+
+.xterm .xterm-screen canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.xterm-char-measure-element {
+  display: inline-block;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: -9999em;
+  line-height: normal;
+}
+
+.xterm-dim {
+  opacity: 0.5;
+}
+
+/* Terminal Container */
+.terminal-container {
+  height: 100%;
+  width: 100%;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
+.xterm-wrapper {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  overflow: hidden;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Terminal adjustments */
+.terminal-container .xterm {
+  height: 100%;
+  width: 100%;
+  padding: 4px;
+}
+
+.terminal-container .xterm-viewport {
+  overflow-y: auto;
+  background-color: transparent !important;
+}
+
+.terminal-container .xterm-screen {
+  height: 100%;
+}
+
+.terminal-container .xterm-screen canvas {
+  cursor: text;
+}
+
+/* Scrollbar */
+.terminal-container .xterm-viewport::-webkit-scrollbar {
+  width: 12px;
+}
+
+.terminal-container .xterm-viewport::-webkit-scrollbar-track {
+  background: #f5f5f5;
+  border-radius: 6px;
+}
+
+.terminal-container .xterm-viewport::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border-radius: 6px;
+  border: 2px solid #f5f5f5;
+}
+
+.terminal-container .xterm-viewport::-webkit-scrollbar-thumb:hover {
+  background: #a0a0a0;
+}
+
+/* Focus state */
+.terminal-container:focus-within {
+  outline: none;
+}
+
+.terminal-container:focus-within .xterm-wrapper {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2),
+              0 0 0 2px rgba(82, 139, 255, 0.3);
+}
+
+.terminal-container .xterm.focus {
+  outline: none;
+}
+
+/* Hover state */
+.xterm-wrapper:hover {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+.terminal-container:focus-within .xterm-wrapper:hover {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2),
+              0 0 0 2px rgba(82, 139, 255, 0.3);
+}
+
+/* Selection */
+.xterm .xterm-selection div {
+  background-color: rgba(82, 139, 255, 0.3) !important;
+}
+
+/* Cursor */
+.xterm-cursor-layer .xterm-cursor-block {
+  background-color: #528bff !important;
+}
+
+.xterm-cursor-layer .xterm-cursor-bar {
+  background-color: #528bff !important;
+}
+
+.xterm-cursor-layer .xterm-cursor-underline {
+  background-color: #528bff !important;
+}
+
+/* Error message */
+.terminal-error {
+  padding: 20px;
+  color: #e06c75;
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+
+/* Fallback UI */
+.terminal-fallback {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+.terminal-fallback h3 {
+  margin: 0;
+  color: var(--text-warning);
+  font-size: 20px;
+}
+
+.terminal-fallback-message {
+  color: var(--text-muted);
+  max-width: 400px;
+}
+
+.terminal-fallback-message p {
+  margin: 8px 0;
+}
+
+.terminal-fallback-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.terminal-fallback-buttons button {
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.terminal-fallback-details {
+  margin-top: 24px;
+  padding: 16px;
+  background: var(--background-secondary);
+  border-radius: 8px;
+  max-width: 600px;
+  text-align: left;
+}
+
+.terminal-fallback-details summary {
+  cursor: pointer;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.terminal-fallback-details pre {
+  font-size: 11px;
+  color: var(--text-faint);
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+/* Transitions */
+.terminal-container,
+.xterm-wrapper {
+  transition: all 0.2s ease;
+}
