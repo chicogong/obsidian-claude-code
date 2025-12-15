@@ -125,7 +125,7 @@ python3 --version
 2. **Add ClaudeTerm via BRAT:**
    - Go to `Settings` → `BRAT`
    - Click `Add Beta plugin`
-   - Enter: `chicogong/obsidian-cladue-code`
+   - Enter: `chicogong/obsidian-claude-code`
    - Click `Add Plugin`
 
 3. **Enable ClaudeTerm:**
@@ -160,14 +160,14 @@ Open Terminal/Command Prompt and run:
 cd /Users/YourName/Documents/Obsidian/YourVault/.obsidian/plugins/
 
 # Clone the repository
-git clone https://github.com/chicogong/obsidian-cladue-code.git claudeterm
+git clone https://github.com/chicogong/obsidian-claude-code.git claudeterm
 
 # Done! The 'claudeterm' folder is now created
 ```
 
 **Option B: Download ZIP**
 
-1. Go to https://github.com/chicogong/obsidian-cladue-code
+1. Go to https://github.com/chicogong/obsidian-claude-code
 2. Click green `Code` button → `Download ZIP`
 3. Extract the ZIP file
 4. Rename the extracted folder to `claudeterm`
@@ -310,7 +310,7 @@ git status
 ### Plugin not showing up
 
 **Check these:**
-1. ✅ Folder name is `claudeterm` (not `obsidian-cladue-code`)
+1. ✅ Folder name is `claudeterm` (not `obsidian-claude-code`)
 2. ✅ Files exist: `manifest.json`, `main.js`, `pty_proxy.py`
 3. ✅ Plugin is enabled in settings
 4. ✅ Restart Obsidian
@@ -400,14 +400,14 @@ echo "# New note" > temp.md
 
 Contributions welcome!
 
-**Found a bug?** [Open an issue](https://github.com/chicogong/obsidian-cladue-code/issues)
+**Found a bug?** [Open an issue](https://github.com/chicogong/obsidian-claude-code/issues)
 
-**Have an idea?** [Start a discussion](https://github.com/chicogong/obsidian-cladue-code/discussions)
+**Have an idea?** [Start a discussion](https://github.com/chicogong/obsidian-claude-code/discussions)
 
 **Want to help?**
 ```bash
-git clone https://github.com/chicogong/obsidian-cladue-code.git
-cd obsidian-cladue-code
+git clone https://github.com/chicogong/obsidian-claude-code.git
+cd obsidian-claude-code
 # Edit code
 # Test in Obsidian (Cmd+R to reload)
 # Submit PR
@@ -442,9 +442,9 @@ Inspired by [obsidian-terminal](https://github.com/polyipseity/obsidian-terminal
 </p>
 
 <p align="center">
-  <a href="https://github.com/chicogong/obsidian-cladue-code/issues">Report Bug</a>
+  <a href="https://github.com/chicogong/obsidian-claude-code/issues">Report Bug</a>
   ·
-  <a href="https://github.com/chicogong/obsidian-cladue-code/issues">Request Feature</a>
+  <a href="https://github.com/chicogong/obsidian-claude-code/issues">Request Feature</a>
   ·
-  <a href="https://github.com/chicogong/obsidian-cladue-code/discussions">Discussions</a>
+  <a href="https://github.com/chicogong/obsidian-claude-code/discussions">Discussions</a>
 </p>

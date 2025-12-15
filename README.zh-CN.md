@@ -125,7 +125,7 @@ python3 --version
 2. **通过 BRAT 添加 ClaudeTerm：**
    - 进入 `设置` → `BRAT`
    - 点击 `Add Beta plugin`
-   - 输入：`chicogong/obsidian-cladue-code`
+   - 输入：`chicogong/obsidian-claude-code`
    - 点击 `Add Plugin`
 
 3. **启用 ClaudeTerm：**
@@ -160,14 +160,14 @@ python3 --version
 cd /Users/你的用户名/Documents/Obsidian/你的笔记库/.obsidian/plugins/
 
 # 克隆仓库
-git clone https://github.com/chicogong/obsidian-cladue-code.git claudeterm
+git clone https://github.com/chicogong/obsidian-claude-code.git claudeterm
 
 # 完成！现在已经创建了 'claudeterm' 文件夹
 ```
 
 **方式 B：下载 ZIP 压缩包**
 
-1. 访问 https://github.com/chicogong/obsidian-cladue-code
+1. 访问 https://github.com/chicogong/obsidian-claude-code
 2. 点击绿色的 `Code` 按钮 → `Download ZIP`
 3. 解压下载的 ZIP 文件
 4. 将解压后的文件夹重命名为 `claudeterm`
@@ -310,7 +310,7 @@ git status
 ### 插件没显示
 
 **检查这些：**
-1. ✅ 文件夹名是 `claudeterm`（不是 `obsidian-cladue-code`）
+1. ✅ 文件夹名是 `claudeterm`（不是 `obsidian-claude-code`）
 2. ✅ 文件存在：`manifest.json`、`main.js`、`pty_proxy.py`
 3. ✅ 插件已在设置中启用
 4. ✅ 重启 Obsidian
@@ -400,14 +400,14 @@ echo "# 新笔记" > temp.md
 
 欢迎贡献！
 
-**发现 bug？** [提交 issue](https://github.com/chicogong/obsidian-cladue-code/issues)
+**发现 bug？** [提交 issue](https://github.com/chicogong/obsidian-claude-code/issues)
 
-**有想法？** [开始讨论](https://github.com/chicogong/obsidian-cladue-code/discussions)
+**有想法？** [开始讨论](https://github.com/chicogong/obsidian-claude-code/discussions)
 
 **想帮忙？**
 ```bash
-git clone https://github.com/chicogong/obsidian-cladue-code.git
-cd obsidian-cladue-code
+git clone https://github.com/chicogong/obsidian-claude-code.git
+cd obsidian-claude-code
 # 编辑代码
 # 在 Obsidian 中测试（Cmd+R 重新加载）
 # 提交 PR
@@ -442,9 +442,9 @@ MIT License - 详见 [LICENSE](LICENSE)
 </p>
 
 <p align="center">
-  <a href="https://github.com/chicogong/obsidian-cladue-code/issues">报告 Bug</a>
+  <a href="https://github.com/chicogong/obsidian-claude-code/issues">报告 Bug</a>
   ·
-  <a href="https://github.com/chicogong/obsidian-cladue-code/issues">请求功能</a>
+  <a href="https://github.com/chicogong/obsidian-claude-code/issues">请求功能</a>
   ·
-  <a href="https://github.com/chicogong/obsidian-cladue-code/discussions">讨论区</a>
+  <a href="https://github.com/chicogong/obsidian-claude-code/discussions">讨论区</a>
 </p>
