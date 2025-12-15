@@ -13,6 +13,10 @@
 <h3 align="center">🚀 Obsidian 的全功能终端插件</h3>
 <p align="center">在侧边栏直接运行 <strong>AI CLI 工具</strong>（Claude、Gemini、OpenAI）、vim、git 等所有命令</p>
 
+<p align="center">
+  <img src="assets/screenshot-1.jpeg" alt="ClaudeTerm 截图" width="800">
+</p>
+
 ---
 
 ## 🎬 能做什么？
@@ -38,6 +42,10 @@ chatgpt "为这个函数生成单元测试"
 2. 按 `Cmd+Shift+T` 打开终端
 3. 向 AI 求助**无需离开笔记**
 4. 把 AI 的回答复制回笔记
+
+<p align="center">
+  <img src="assets/screenshot-2.jpeg" alt="Git 集成" width="800">
+</p>
 
 ### 🔄 配合 Obsidian Git 使用
 

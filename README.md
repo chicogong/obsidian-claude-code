@@ -13,6 +13,10 @@
 <h3 align="center">🚀 Full-featured terminal for Obsidian</h3>
 <p align="center">Run <strong>AI CLI tools</strong> (Claude, Gemini, OpenAI), vim, git directly in your sidebar</p>
 
+<p align="center">
+  <img src="assets/screenshot-1.jpeg" alt="ClaudeTerm Screenshot" width="800">
+</p>
+
 ---
 
 ## 🎬 What Can You Do?
@@ -38,6 +42,10 @@ chatgpt "Generate unit tests for this function"
 2. Press `Cmd+Shift+T` to open terminal
 3. Ask AI for help **without leaving your notes**
 4. Copy AI's response back to your notes
+
+<p align="center">
+  <img src="assets/screenshot-2.jpeg" alt="Git Integration" width="800">
+</p>
 
 ### 🔄 Version Control with Obsidian Git
 
