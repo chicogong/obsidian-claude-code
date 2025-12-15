@@ -14,7 +14,7 @@
 <p align="center">在侧边栏直接运行 <strong>AI CLI 工具</strong>（Claude、Gemini、OpenAI）、vim、git 等所有命令</p>
 
 <p align="center">
-  <img src="assets/screenshot-1.jpeg" alt="ClaudeTerm 截图" width="800">
+  <img src="assets/screenshot-2.jpeg" alt="ClaudeTerm 配合 Obsidian Git" width="800">
 </p>
 
 ---
@@ -44,35 +44,35 @@ chatgpt "为这个函数生成单元测试"
 4. 把 AI 的回答复制回笔记
 
 <p align="center">
-  <img src="assets/screenshot-2.jpeg" alt="Git 集成" width="800">
+  <img src="assets/screenshot-1.jpeg" alt="ClaudeTerm AI 集成" width="800">
 </p>
 
-### 🔄 配合 Obsidian Git 使用
+### 🔄 完美配合 Obsidian Git 插件
 
-**ClaudeTerm + [Obsidian Git](https://github.com/denolehov/obsidian-git) = 完美组合**
+**安装 Obsidian Git 实现自动版本控制：**
 
-```bash
-# 查看笔记的变更
-git status
-git diff daily/2024-12-15.md
+1. **安装 Obsidian Git 插件：**
+   - 进入 `设置` → `第三方插件` → `浏览`
+   - 搜索 "Obsidian Git"
+   - 点击 `安装` 并 `启用`
 
-# 查看详细变更
-git diff --word-diff           # 词级别对比
-git diff --color-words         # 彩色对比
+2. **可视化 Git 操作：**
+   - Obsidian Git 提供**可视化界面**操作 Git
+   - 定时自动提交和同步
+   - 内置差异查看器查看变更
+   - 点击即可暂存/取消暂存文件
 
-# 提交变更
-git add .
-git commit -m "添加会议笔记"
+3. **需要高级操作时使用 ClaudeTerm：**
+   - 需要 git 命令时，ClaudeTerm 就在旁边
+   - 快速 `git status` 查看状态
+   - 运行自定义 git 命令
+   - 用 vim/nano 编辑提交信息
 
-# 查看历史
-git log --oneline --graph
-```
-
-**为什么好用：**
-- ✅ Obsidian Git 自动同步你的笔记库
-- ✅ ClaudeTerm 让你**在同步前查看变更**
-- ✅ 完美查看笔记改了什么
-- ✅ 直接在终端用 vim/nano 编辑文件
+**完美组合：**
+- ✅ Obsidian Git 处理自动同步
+- ✅ ClaudeTerm 提供终端控制能力
+- ✅ 两者无缝配合
+- ✅ 兼得图形界面和命令行的优势
 
 ### 💻 开发者工作流
 

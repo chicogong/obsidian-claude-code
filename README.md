@@ -14,7 +14,7 @@
 <p align="center">Run <strong>AI CLI tools</strong> (Claude, Gemini, OpenAI), vim, git directly in your sidebar</p>
 
 <p align="center">
-  <img src="assets/screenshot-1.jpeg" alt="ClaudeTerm Screenshot" width="800">
+  <img src="assets/screenshot-2.jpeg" alt="ClaudeTerm with Obsidian Git" width="800">
 </p>
 
 ---
@@ -44,35 +44,35 @@ chatgpt "Generate unit tests for this function"
 4. Copy AI's response back to your notes
 
 <p align="center">
-  <img src="assets/screenshot-2.jpeg" alt="Git Integration" width="800">
+  <img src="assets/screenshot-1.jpeg" alt="ClaudeTerm AI Integration" width="800">
 </p>
 
-### 🔄 Version Control with Obsidian Git
+### 🔄 Perfect with Obsidian Git Plugin
 
-**ClaudeTerm + [Obsidian Git](https://github.com/denolehov/obsidian-git) = Perfect combo**
+**Install Obsidian Git for automatic version control:**
 
-```bash
-# View what changed in your notes
-git status
-git diff daily/2024-12-15.md
+1. **Install Obsidian Git Plugin:**
+   - Go to `Settings` → `Community plugins` → `Browse`
+   - Search for "Obsidian Git"
+   - Click `Install` and `Enable`
 
-# See detailed changes
-git diff --word-diff           # Word-level diff
-git diff --color-words         # Colored diff
+2. **Visual Git Operations:**
+   - Obsidian Git provides a **visual interface** for Git
+   - Auto-commit and sync on schedule
+   - View changes with built-in diff viewer
+   - Stage/unstage files with clicks
 
-# Commit your changes
-git add .
-git commit -m "Add meeting notes"
+3. **Use ClaudeTerm for Advanced Operations:**
+   - When you need git commands, ClaudeTerm is right there
+   - Quick `git status` to check changes
+   - Run custom git commands when needed
+   - Edit commit messages in vim/nano
 
-# Review history
-git log --oneline --graph
-```
-
-**Why this rocks:**
-- ✅ Obsidian Git auto-syncs your vault
-- ✅ ClaudeTerm lets you **review changes before sync**
-- ✅ Perfect for seeing what changed in your notes
-- ✅ Edit files with vim/nano right in terminal
+**Perfect combo:**
+- ✅ Obsidian Git handles automatic syncing
+- ✅ ClaudeTerm for when you need terminal control
+- ✅ Both work together seamlessly
+- ✅ Best of both worlds: GUI + CLI
 
 ### 💻 Developer Workflows
 
