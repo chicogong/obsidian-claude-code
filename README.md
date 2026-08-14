@@ -11,7 +11,7 @@
 </p>
 
 <h3 align="center">🚀 Full-featured terminal for Obsidian</h3>
-<p align="center">Run <strong>AI CLI tools</strong> (Claude, Gemini, OpenAI), vim, git directly in your sidebar</p>
+<p align="center">Run <strong>AI CLI tools</strong> (Claude, Gemini, OpenAI, OpenCode), vim, git directly in your sidebar</p>
 
 <p align="center">
   <img src="assets/screenshot-2.jpeg" alt="ClaudeTerm with Obsidian Git" width="800">
@@ -35,7 +35,13 @@ gemini "Summarize my meeting notes"
 
 # OpenAI ChatGPT / Codex
 chatgpt "Generate unit tests for this function"
+
+# OpenCode - open-source coding agent
+# Install OpenCode first, then launch it like any other interactive CLI.
+opencode
 ```
+
+ClaudeTerm is a general PTY terminal rather than a vendor-specific integration. OpenCode needs no plugin adapter: if `opencode` works in your system terminal and is available on the configured shell `PATH`, it works inside ClaudeTerm as well.
 
 **Perfect workflow:**
 1. Write notes about a problem in Obsidian
@@ -415,6 +421,7 @@ Supports:
 - [Claude Code](https://claude.ai/code) - AI coding assistant
 - [Google Gemini](https://ai.google.dev/) - AI assistant
 - [OpenAI](https://openai.com/) - AI platform
+- [OpenCode](https://github.com/anomalyco/opencode) - open-source coding agent
 
 Inspired by [obsidian-terminal](https://github.com/polyipseity/obsidian-terminal)
 
