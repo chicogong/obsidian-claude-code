@@ -11,7 +11,7 @@
 </p>
 
 <h3 align="center">🚀 Obsidian 的全功能终端插件</h3>
-<p align="center">在侧边栏直接运行 <strong>AI CLI 工具</strong>（Claude、Gemini、OpenAI）、vim、git 等所有命令</p>
+<p align="center">在侧边栏直接运行 <strong>AI CLI 工具</strong>（Claude、Gemini、OpenAI、OpenCode）、vim、git 等所有命令</p>
 
 <p align="center">
   <img src="assets/screenshot-2.jpeg" alt="ClaudeTerm 配合 Obsidian Git" width="800">
@@ -35,7 +35,13 @@ gemini "总结我的会议笔记"
 
 # OpenAI ChatGPT / Codex
 chatgpt "为这个函数生成单元测试"
+
+# OpenCode - 开源编程 Agent
+# 先安装 OpenCode，再像其他交互式 CLI 一样启动。
+opencode
 ```
+
+ClaudeTerm 是通用 PTY 终端，不是绑定厂商的集成。OpenCode 不需要专用适配器：只要 `opencode` 能在系统终端运行，并且位于所配置 Shell 的 `PATH` 中，就能直接在 ClaudeTerm 中使用。
 
 **完美工作流：**
 1. 在 Obsidian 中记录问题笔记
@@ -415,6 +421,7 @@ MIT License - 详见 [LICENSE](LICENSE)
 - [Claude Code](https://claude.ai/code) - AI 编程助手
 - [Google Gemini](https://ai.google.dev/) - AI 助手
 - [OpenAI](https://openai.com/) - AI 平台
+- [OpenCode](https://github.com/anomalyco/opencode) - 开源编程 Agent
 
 灵感来源：[obsidian-terminal](https://github.com/polyipseity/obsidian-terminal)
 
