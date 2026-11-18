@@ -1,3 +1,5 @@
+
+
 # ClaudeTerm
 
 <p align="center">
@@ -136,7 +138,7 @@ python3 --version
 Your path should look like:
 - **macOS**: `/Users/YourName/Documents/Obsidian/YourVault/.obsidian/plugins/`
 - **Linux**: `/home/YourName/Documents/Obsidian/YourVault/.obsidian/plugins/`
-- **Windows**: `C:\Users\YourName\Documents\Obsidian\YourVault\.obsidian\plugins\`
+- **Windows**: Not supported yet (see Roadmap)
 
 **Step 2: Download the plugin**
 
